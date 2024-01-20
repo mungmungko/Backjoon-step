@@ -1,9 +1,8 @@
 import sys
 
-
 def find_divisors(N, K):
     divisors = [i for i in range(1,N+1) if N%i == 0]
-    if K < len(divisors):
+    if K <= len(divisors):
         return divisors[K-1]
     else:
         return 0
