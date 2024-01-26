@@ -8,5 +8,4 @@ def find_seven(dwarves):
 
 if __name__ == '__main__':
     dwarves = [int(sys.stdin.readline().strip()) for _ in range(9)]
-    seven_dwarves = find_seven(dwarves)
-    print(*seven_dwarves, sep='\n')
+    print(*find_seven(dwarves), sep='\n')
