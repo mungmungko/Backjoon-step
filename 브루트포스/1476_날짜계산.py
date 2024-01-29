@@ -15,7 +15,7 @@ def calculate_year(E, S, M):
         
         e, s, m = e+1, s+1, m+1
         year += 1
-        
+
         if e > 15:
             e = 1
         
